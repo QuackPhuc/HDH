@@ -43,6 +43,7 @@ Một số thuật ngữ:
 - Waiting Time (Thời Gian Chờ): Khoảng thời gian mà một tiến trình chờ trong hàng đợi ready trước khi được CPU xử lý.
 	- Công thức tính: Waiting Time = Turn Around Time - Burst Time
 <img src="CPU_Scheduling.png" width="250">
+
 ## First-Come, First-Served (FCFS)
 Là thuật toán lập lịch CPU đơn giản nhất.
 ### Cơ chế hoạt động:
