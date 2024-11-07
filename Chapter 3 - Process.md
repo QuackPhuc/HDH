@@ -56,7 +56,7 @@ int main() {
 ```
 
 # Diagram of process state
-![](Pasted image 20241106083537.png)
+![]("Pasted image 20241106083537.png")
 - **New**:
     - Tiến trình vừa được tạo, nhưng chưa được đưa vào hàng đợi sẵn sàng (ready queue). Trong giai đoạn này, hệ thống sẽ cấp phát tài nguyên cần thiết cho tiến trình.
 - **Ready**:
@@ -184,7 +184,7 @@ IPC cho phép các tiến trình độc lập hoặc hợp tác chia sẻ thông
 3. **Các loại liên kết**:
     - **Liên kết trực tiếp**: Các tiến trình phải chỉ định nhau một cách rõ ràng để gửi và nhận tin nhắn. A muốn gửi một tin nhắn đến tiến trình B, nó sẽ sử dụng lệnh `send(B, message)`. Tiến trình B sẽ nhận tin nhắn bằng lệnh `receive(A, message)`.
     - **Liên kết gián tiếp**: Sử dụng hộp thư (mailbox) để gửi và nhận tin nhắn, cho phép nhiều tiến trình giao tiếp thông qua một điểm chung. A gửi một tin nhắn đến một hộp thư (mailbox) có ID là M. Lệnh gửi sẽ là `send(M, message)`. Tiến trình B có thể nhận tin nhắn từ hộp thư M bằng lệnh `receive(M, message)`.
-![](Pasted image 20241106100634.png)
+![]("Pasted image 20241106100634.png")
 
 # Synchronization
 1. **Mục đích**:
