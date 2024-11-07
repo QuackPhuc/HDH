@@ -57,6 +57,7 @@ int main() {
 
 # Diagram of process state
 <img src="State_Diagram.png" width="350">
+
 - **New**:
     - Tiến trình vừa được tạo, nhưng chưa được đưa vào hàng đợi sẵn sàng (ready queue). Trong giai đoạn này, hệ thống sẽ cấp phát tài nguyên cần thiết cho tiến trình.
 - **Ready**:
